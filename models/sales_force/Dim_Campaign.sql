@@ -1,0 +1,1 @@
+select distinct ID,NAME,TYPE,STATUS,current_timestamp() as Load_Time from {{source("DEVELOPER_DB","CAMPAIGN")}}

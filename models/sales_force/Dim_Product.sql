@@ -1,0 +1,1 @@
+select distinct ID,NAME,IS_ACTIVE,PRODUCT_CODE,current_timestamp() as Load_Time from {{source("DEVELOPER_DB","PRODUCT_2")}}

@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: DEVELOPER_DB
+    description: <markdown_string>
+    schema: vikas_schema
+    database: DEVELOPER_DB
+    tables:
+      - name: ACCOUNT
+      - name: CAMPAIGN
+      - name: CASE
+      - name: CONTACT
+      - name: CONTRACT
+      - name: LEAD
+      - name: ORDER
+      - name: PRODUCT_2
+      - name: OPPORTUNITY
